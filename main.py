@@ -1,4 +1,6 @@
 import pandas as pd
+
+# This is where we read the data from
 data_car = pd.read_csv(r"cars-data.csv")
 print(data_car)
 
